@@ -1,0 +1,81 @@
+@font-face
+	font-family: "fuente-cuatro"
+	src: url("../../FONTS/Ubuntu/Ubuntu-Light.ttf")
+
+.primer-texto
+	position: relative
+	width: 100%
+	padding-top: 40px
+	display: flex
+	.art1
+		flex-grow: 1
+		margin-left: 3px
+		margin-right: 3px
+		display: flex
+		flex-direction: column
+		.parrafo-uno
+			margin: 0px
+			color: #b4ad9e
+			font-family: 'fuente-cuatro'
+			font-size: 13px
+			margin-bottom: 20px
+		h1
+			margin: 0px
+			font-family: 'fuente-uno'
+			font-size: 25px
+			color: #626262
+			margin-bottom: 25px
+
+		.parrafo-dos
+			color: #626262
+			margin: 0px
+			font-family: 'fuente-uno'
+			margin-bottom: 50px
+		.parrafo-tres
+			margin: 0px
+			font-family: 'fuente-cuatro'
+			font-size: 13px
+			color: #b4ad9e	
+
+@media screen and (min-width: 450px)
+	.primer-texto
+		.art1
+			margin-right: 10px
+			margin-left: 10px
+
+@media screen and (min-width: 550px)
+	.primer-texto
+		.art1
+			margin-right: 15px
+			margin-left: 15px
+
+@media screen and (min-width: 750px)
+	.primer-texto
+		padding-top: 60px
+		.art1
+			margin-right: 25px
+			margin-left: 25px
+			h1
+				font-size: 35px
+
+
+@media screen and (min-width: 950px)
+	.primer-texto
+		.art1
+			margin-right: 45px
+			margin-left: 45px
+
+@media screen and (min-width: 1100px)
+	.primer-texto
+		.art1
+			margin-right: 55px
+			margin-left: 55px
+
+@media screen and (min-width: 1300px)
+	.primer-texto
+		justify-content: center
+		.art1
+			flex-grow: 0
+			width: 1020px
+			margin: 0px															
+
